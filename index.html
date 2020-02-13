@@ -12,55 +12,54 @@
 </head>
 
 <body>
-<!--IMAGE-->
-<section id = "topPic">
-    <div class = containerPic>
-        <img  class = "blacknwhite" src="./Pictures/old-world.bw.jpg" alt="Stephen Lowe">
-        </img>
-    </div>
-</section>
+    
+<!--navBar-->
+<section id = "navBar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="nav-link" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <a class="nav-link" href="#about">About</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!--WRAPPER-->
-<div id = 'wrapper'>
+        <a class="nav-link" href="#two">Skills</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <a class="nav-link" href="#three">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!--SIDEBAR-->
-<section id = 'header'>
-    <div class = containerBar>
-    <div class="card" style="width: 18rem;">
-        <img src="./Pictures/headshot.JPG" class="card-img-top" alt="Stephen Lowe">
-        <div class="card-body">
-          <h5 class="card-title">Stephen Lowe</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">About</li>
-          <li class="list-group-item">Skills</li>
-          <li class="list-group-item">Portfolio</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+               
+      </nav>
 
-     
-
-
-
-  </div> 
-</section>
-
-
-
+      
+      <!--Intrduction-->
+      <div class = "introContainer">
+          <div class = "box">
+            <img src = "" alt = "">
+              <div class = "text"></div>
+              <h1></h1>
+          </div> 
+    
 
     
 <!--SECTION ONE-->
 <section id = "one">
      <div class = "container2">
 
-        <header id = "about" class = "major">
-            <h1>HELLO.</h1>
+        <div class = "hello"></div>
+           
         
 
             <p>
@@ -75,25 +74,45 @@
             <br>
 
             As I enter the world of Web Development, it is my goal to use my background in a team environment in order to create applications that are streamlined and practical, while providing an elegant solution for the client.
+            </p>
+        </div>
+        
+            <div class="card" style="width: 12rem;">
+                    <img src="./Pictures/headshot.jpg" class="card-img-top" alt="stephenlowe">
+                    <div class="card-body">
+                      <p class="card-text">Stephen Lowe</p>
+                      <a target="_blank" href="https://www.linkedin.com/">
+                      <p class="second-text">likedIn</p>
+                      </a>
+                    </div>
+                  </div>
+            </div>
+   
 
-        </header>
-    </div>
-</section>
-
+<br>
 <br>
 
 <!--SECTION TWO-->
 <section id = "two">
-    <div class = "container3">
+
+        <div class = "box">
+          <img src = "" alt = "">
+            <div class = "text"></div>
+            <h1></h1>
+        </div> 
+ 
         <div class = "skillHeader">
             <h1>SKILLS</h1>
             <br>
         </div>
+
+        <div class = "container3">
+
        
         <div class = "row">
 
             <div class = "col-lg-3 col-md-3 col-sm-6 text-center"> 
-                <img src = "./skillsIcons/html_css.png">
+                <img src = "./skillsIcons/html-css_2.png">
                 <br>
                 <span class = "skillTitles">
                 <b>HTML5/CSS3</b>
@@ -131,7 +150,7 @@
 
 
             <div class = "col-lg-3 col-md-3 col-sm-6 text-center">
-                <img src = "./skillsIcons/bootstrap.jpeg">
+                <img src = "./skillsIcons/bootstrap_2.png">
                 <br>
                 <span class = "skillTitles">
                 <b>BOOTSTRAP</b>
@@ -160,23 +179,72 @@
     </div>
 </section>
 
+<br>
+<br>
+
 <!--SECTION THREE-->
 <section id = "three">
-    <div class = "conatiner4">
+
+    <div class = "box">
+        <img src = "" alt = "">
+          <div class = "text"></div>
+          <h1></h1>
+      </div> 
+
+    <div class = "container4">
         <h1>PORTFOLIO</h1>
+
+        <div class="card">
+            <a target="_blank" href="https://codepen.io/stephenlowe/pen/ExaJQpj">
+                <img src="./Pictures/whale.jpg" alt="codePen Project" class="card-img-top"></img>
+                </a>
+            <div class="card-body">
+              <h5 class="card-title">Code Pen Project</h5>
+              <p class="card-text">This was my first html/css project - building a creature in Codepen.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <a target="_blank" href="https://www.netflix.com/">
+                <img src="./Pictures/netflix.jpg" alt="staticLayout Project" class="img-thumbnail"><img>
+                </a>
+            <div class="card-body">
+              <h5 class="card-title">Statice Layout Page</h5>
+              <p class="card-text">A static layout page to emulate a popular website.</p>
+            </div> 
+          </div>
+
+          <div class="card">
+            <a target="_blank" href="https://sl-epl-api-ffa74.web.app/">
+                <img src="./Pictures/TEAMS OF PREMIERE LEAGUE copy.png" alt="api Challenge" class="img-thumbnail"></img>
+                </a>
+            <div class="card-body">
+              <h5 class="card-title">API Challenge</h5>
+              <p class="card-text">Using DOM Manipulation and JSON to display information in an API</p>
+            </div>   
+        </div>
 
     </div>
 </section>
 
+<br>
+<br>
+
 <!--SECTION FOUR-->
 <section id="contact">
+    <div class = "box">
+        <img src = "" alt = "">
+          <div class = "text"></div>
+          <h1></h1>
+      </div> 
+
     <div class="container5">
         <br>
         <br>
         <h2 class="text-center text-uppercase">Contact Me</h2>
         <div class="row">
             <div class="col-12">
-                <form action="https://formspree.io/maynard.zach23@gmail.com" method="POST">
+                <form action="https://formspree.io/myywowyq" method="POST">
                     <div class="control-group">
                         <div class="form-group">
                             <label>Name</label>
@@ -219,3 +287,4 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
